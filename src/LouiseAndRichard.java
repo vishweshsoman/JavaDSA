@@ -6,6 +6,13 @@ import java.io.InputStreamReader;
 import java.util.stream.IntStream;
 
 class Solution {
+
+    /**
+     * Complete the 'counterGame' function below.
+     * <p>
+     * The function is expected to return a STRING.
+     * The function accepts LONG_INTEGER n as parameter.
+     */
     public static String counterGame(long n) {
         // Write your code here
         int counter = 0;
@@ -35,13 +42,6 @@ class Solution {
  * always starts.
  * <p>
  * Given an initial value, determine who wins the game.
- */
-
-/**
- * Complete the 'counterGame' function below.
- * <p>
- * The function is expected to return a STRING.
- * The function accepts LONG_INTEGER n as parameter.
  */
 public class LouiseAndRichard {
     public static void main(String[] args) throws IOException {
