@@ -9,6 +9,7 @@ public class CheckPalindrome {
         while (i <= j) {
             if (s.charAt(i) != s.charAt(j)) {
                 check = false;
+                break;
             }
             i++;
             j--;
