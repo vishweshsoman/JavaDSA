@@ -17,8 +17,12 @@ class Result {
         // Write your code here
         int i = 0, j = s.length() - 1;
         while (i <= j) {
-            if (!(s.charAt(i) == s.charAt(j))) {
-                if (palindromeIndex(s.substring(i, j + 1)) == -1) {
+            if (s.charAt(i) != s.charAt(j)) {
+                // Recursion logic that I tried but doesn't really help time complexity issue.
+                // Rather makes it worse.
+                // The one time I did recursion successfully, but it doesn't help. :(
+                // if (palindromeIndex(s.substring(i + 1, j + 1)) == -1) {
+                if (CheckPalindrome.isPalindrome(s.substring(i + 1, j + 1))) {
                     return i;
                 }
                 return j;

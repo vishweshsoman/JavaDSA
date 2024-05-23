@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2010be41-2273-4403-8293-f4a6d488ce53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDSA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheckPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheckPowerOfTwoWithWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LargestDistanceBetweenCharacterOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LouiseAndRichard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PalindromeBreakerFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PowerOfTwoChecker.java" afterDir="false" />
+    <list default="true" id="2010be41-2273-4403-8293-f4a6d488ce53" name="Changes" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalindromeBreakerFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeBreakerFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gkMERK9Tczg40WBwV2Ce0rvVX2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,6 +38,7 @@
     "Application.CheckPalindrome.executor": "Debug",
     "Application.LargestDistanceBetweenCharacterOccurrence.executor": "Run",
     "Application.LouiseAndRichard.executor": "Run",
+    "Application.PalindromeBreakerFinder.executor": "Run",
     "Application.PalindromeBreakerIndex.executor": "Run",
     "Application.PowerOfTwoChecker.executor": "Debug",
     "Application.TryOut.executor": "Debug",
@@ -59,7 +48,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LargestDistanceBetweenCharacterOccurrence">
+  <component name="RunManager" selected="Application.PalindromeBreakerFinder">
     <configuration name="CheckPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckPalindrome" />
       <module name="JavaDSA" />
@@ -97,13 +86,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeBreakerFinder" />
         <item itemvalue="Application.LargestDistanceBetweenCharacterOccurrence" />
         <item itemvalue="Application.CheckPalindrome" />
-        <item itemvalue="Application.PalindromeBreakerFinder" />
         <item itemvalue="Application.LouiseAndRichard" />
         <item itemvalue="Application.PowerOfTwoChecker" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,17 +110,46 @@
       <option name="presentableId" value="Default" />
       <updated>1716237012095</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1716449290050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716449290050</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1716449483371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716449483371</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1716449523377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716449523377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PowerOfTwoChecker.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>
